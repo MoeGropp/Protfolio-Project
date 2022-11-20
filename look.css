@@ -24,16 +24,20 @@ html,body{
     font-family:var(--main-font);
     font-size: 70px;
     margin-top: 70px;
-    margin-left: 50px;
+    text-align: center;
 }
 .title{
     font-family:var(--main-font);
-    margin-left: 50px;
+    text-align: center;
     color: slategray;
 }
 .name{
     font-family:'Petemoss';
     font-style: italic;
+    text-align: center;
+}
+.spider{
+    justify-content: center;
 }
 .work-title{
     font-family: 'Petemoss';
@@ -74,15 +78,6 @@ html,body{
     
 }
 @media(max-width: 850px){
-    .intro{
-        text-align: center;
-    }
-    .name{
-        text-align: center;
-    }
-    .title{
-        text-align: center;
-    }
     .launch-lykoi{
         text-align: center;
     } 
