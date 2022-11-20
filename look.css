@@ -15,7 +15,10 @@ html,body{
     overflow:hidden;
     display:block;
 }
-
+.spider{
+    display: flex;
+    justify-content: end;
+}
 
 .intro{
     font-family:var(--main-font);
@@ -32,30 +35,71 @@ html,body{
     font-family:'Petemoss';
     font-style: italic;
 }
-.about{
-    margin-left: 100px;
-    margin-top: 30px;
-    font-family: var(--main-font);
-    border-style: solid;
-    border-color: black;
-    
+.work-title{
+    font-family: 'Petemoss';
+    text-align: center;
+    font-size: 70px;
 }
-.about:hover{
-    border-style: solid;
-    border-color: black;
-    
+.scroller{
+    overflow-y: scroll;
 }
 
-.work{
-    margin-left: 100px;
-    margin-top: 30px;
-    font-family: var(--main-font);
+.launch-lykoi{
     border-style: solid;
     border-color: black;
+    border-radius: 5px;
+    margin-left: 20px;  
+}
+.lykoi-title{
+    font-size: 50px;
+    font-family: var(--main-font);
+    margin-left: 20px;
+}
+.lykoi-description{
+    font-family: var(--main-font);
+    margin-left: 20px;
+    text-align: left;
+}
+.launch-weather{
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+.weather-title{
+    font-size: 50px;
+    font-family: var(--main-font);   
+}
+.weather-description{
+    font-family: var(--main-font);
     
 }
-.work:hover{
-    border-style: solid;
-    border-color: black;
-    
+@media(max-width: 850px){
+    .intro{
+        text-align: center;
+    }
+    .name{
+        text-align: center;
+    }
+    .title{
+        text-align: center;
+    }
+    .launch-lykoi{
+        text-align: center;
+    } 
+    .lykoi-title{
+        text-align: center;
+    }
+    .lykoi-description{
+        text-align: center;
+    }
+    .launch-weather{
+        text-align: center;
+    }
+    .weather-title{
+        text-align: center;
+    }
+    .weather-description{
+        text-align: center;
+    }
+
 }

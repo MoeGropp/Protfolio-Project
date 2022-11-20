@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Lykoi Cat</title>
+    <style>
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 60px;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+    color: whitesmoke;
+    background: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
+}
+button {
+    color: whitesmoke;
+    border-radius: 15%;
+    background-color: black;
+    font-size: large;
+    margin: 5px 10px 5px;
+    box-shadow: 10px 5px 5px lightgrey;
+    transition: 1ms;
+}
+button:hover {
+    background-color: lavender;
+    color: black;
+    cursor: pointer;
+}
+a:visited{
+    color: black;
+    margin: 2px 10px 10px;
+}
+ul {
+    align-items: center;
+    line-height: 30px;
+    list-style-position: inside;
+}
+.join{
+    margin: 30px 25px;
+}
+.name {
+    font-size: x-small;
+}
+
+    </style>
+</head>
+<h1>
+    The Lykoi Cat
+</h1>
+<h2>
+    A.K.A. <em>The Werewolf Cat</em>
+</h2>
+<body>
+    <div class="pic">
+    <img src= "https://image.petmd.com/files/cool-lykoi-werewolf-cat-laying-down-side-ways-looking-beside-camera-picture-id1026612064.jpg"/>
+    </div>
+    <p>    
+    The Lykoi was discovered by two different sets of domestic shorthairs with the Lykoi gene were adopted from a rescue after being discovered in Virginia in 2010, by Patti Thomas, who co-founded and named the breed, and in 2011, a second pair were located in Tennessee, by Johnny Gobble. 
+    Black roan Lykoi cats are the standard color, with a slightly silvery appearance. The Lykoi has no undercoat, leaving him with just the thin top hairs, which can make them look almost mangy—like a werewolf. 
+    Their eyes are nearly round and amber or green in color.
+    This breed is still considered an experimental breed, as the first official identification happened fairly recently in 2012. 
+<br/><div class="facts">
+Here are a few facts about them:
+</div>
+    <ul>
+        <div class="list">
+    <li>
+    The name Lykoi, is from the Greek word Lykos meaning 'wolf'.
+    </li> 
+    <li>
+    They get their unique features from a naturally occuring genetic mutaion.
+    </li>
+    <li>
+    All of the current domestic Lykoi in the world can trace their lineage back to feral cats.  
+    </li>
+    <li>
+    They are not genetically connected to the Sphynx cat.   
+    </li>
+    <li>
+    They can shed their <em><strong>entire</em></strong> coat a couple times a year; so they are not considered hypoallergenic.
+    </li>  
+</div>
+</ul>
+</p>
+<div class="link">
+<a href="https://www.dailypaws.com/cats-kittens/cat-breeds/lykoi"target="blank">
+    Click here to learn more!
+   </div>
+</a>
+<hr/>
+<p><div class="joinNow">
+    Want to get notified about Cat Conventions? Join our mailing list! </div>
+<button>Join Now!</button>
+</p>
+<br/>
+<div class="name">Created by Morgan Gropp</div>
+<script>
+    function joinNow () {
+        let name = prompt ("What is your name?");
+        let email = prompt ("What is your email?")
+        let age = prompt ("How old are you?");
+        if (age >16) {
+            alert("Thank you " + name + ". We'll be in touch! 😸" );
+            }
+            else {
+                alert ("Sorry, " + name + "! You cannot not join. 😿");
+            } 
+    }
+    let joinNowButton = document.querySelector("button");
+    joinNowButton.addEventListener("click", joinNow);
+</script>
+</body>
+</html>
