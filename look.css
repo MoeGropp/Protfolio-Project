@@ -1,3 +1,15 @@
+:root{
+    --main-font:'Old Standard TT',serif;
+}
 body{
     background-color: rgb(237, 221, 245) ;
+}
+.intro{
+    font-family:var(--main-font);
+}
+.title{
+    font-family:var(--main-font);
+}
+.name{
+    font-family:'Petemoss', cursive;
 }
