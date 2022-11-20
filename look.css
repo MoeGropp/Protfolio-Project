@@ -1,15 +1,61 @@
 :root{
     --main-font:'Old Standard TT',serif;
+    --background-color:rgb(237, 221, 245) ;
 }
 body{
-    background-color: rgb(237, 221, 245) ;
+    background-color: var(--background-color);
 }
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0; 
+    padding: 0; 
+    border: solid black;
+    border-width: 5px;
+    overflow:hidden;
+    display:block;
+}
+
+
 .intro{
     font-family:var(--main-font);
+    font-size: 70px;
+    margin-top: 70px;
+    margin-left: 50px;
 }
 .title{
     font-family:var(--main-font);
+    margin-left: 50px;
+    color: slategray;
 }
 .name{
-    font-family:'Petemoss', cursive;
+    font-family:'Petemoss';
+    font-style: italic;
+}
+.about{
+    margin-left: 100px;
+    margin-top: 30px;
+    font-family: var(--main-font);
+    border-style: solid;
+    border-color: black;
+    
+}
+.about:hover{
+    border-style: solid;
+    border-color: black;
+    
+}
+
+.work{
+    margin-left: 100px;
+    margin-top: 30px;
+    font-family: var(--main-font);
+    border-style: solid;
+    border-color: black;
+    
+}
+.work:hover{
+    border-style: solid;
+    border-color: black;
+    
 }
