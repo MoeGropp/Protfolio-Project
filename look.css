@@ -91,6 +91,30 @@ html,body{
     border-radius: 5px;
     margin-left: 20px;
 }
+.contact{
+    text-align: center;
+    font-family: var(--main-font);
+}
+.contact-header{
+    font-size: 70px;
+    margin: 30px;
+}
+.email{
+ text-decoration: underline;
+ padding-top: 20px;  
+ padding-bottom: 5px;
+}
+.email-link{
+   text-decoration: none;
+}
+.linked{
+    text-decoration: underline;  
+    margin-bottom: 5px;  
+}
+.linked-link{
+    text-decoration: none;
+ }
+
 @media(max-width: 850px){
     .launch-lykoi{
         text-align: center;
