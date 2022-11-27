@@ -43,6 +43,8 @@ html,body{
     font-family: 'Petemoss';
     text-align: center;
     font-size: 70px;
+    margin-top: 30px;
+    text-decoration: underline;
 }
 .scroller{
     overflow-y: scroll;
@@ -61,8 +63,8 @@ html,body{
 }
 .lykoi-description{
     font-family: var(--main-font);
-    margin-left: 20px;
-    text-align: left;
+    margin: 20px;
+    
 }
 .launch-weather{
     border-style: solid;
