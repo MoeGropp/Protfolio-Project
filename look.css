@@ -74,8 +74,20 @@ html,body{
     font-family: var(--main-font);   
 }
 .weather-description{
+    font-family: var(--main-font); 
+}
+.about-me{
     font-family: var(--main-font);
-    
+    padding:30px;
+}
+.about-me h1{
+    font-size: 70px;
+}
+.project-button{
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    margin-left: 20px;
 }
 @media(max-width: 850px){
     .launch-lykoi{
