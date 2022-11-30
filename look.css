@@ -116,6 +116,14 @@ html,body{
 .linked-link{
     text-decoration: none;
  }
+ footer{
+    font-size: 24px;
+    margin-top: 30px;
+    
+ }
+.side-note{
+    font-size: 10px;
+}
 
 @media(max-width: 850px){
     .launch-lykoi{
