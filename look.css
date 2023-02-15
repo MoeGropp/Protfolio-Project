@@ -15,7 +15,7 @@ html,body{
     overflow:hidden;
     display:block;
 }
-.spider{
+.swirl{
     display: flex;
     justify-content: end;
 }
@@ -36,7 +36,7 @@ html,body{
     font-style: italic;
     text-align: center;
 }
-.spider{
+.swirl{
     justify-content: center;
 }
 .work-title{
