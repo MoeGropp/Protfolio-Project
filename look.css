@@ -78,6 +78,18 @@ html,body{
 .weather-description{
     font-family: var(--main-font); 
 }
+.launch-google{
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+.google-title{
+    font-size: 50px;
+    font-family: var(--main-font);   
+}
+.google-description{
+    font-family: var(--main-font); 
+}
 .about-me{
     margin-top: 30px;
     font-family: var(--main-font);
