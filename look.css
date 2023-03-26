@@ -53,17 +53,14 @@ html,body{
 .launch-lykoi{
     border-style: solid;
     border-color: black;
-    border-radius: 5px;
-    margin-left: 20px;  
+    border-radius: 5px; 
 }
 .lykoi-title{
     font-size: 50px;
     font-family: var(--main-font);
-    margin-left: 20px;
 }
 .lykoi-description{
     font-family: var(--main-font);
-    
     
 }
 .launch-weather{
